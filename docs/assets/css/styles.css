@@ -190,3 +190,5 @@ p { color: var(--muted); }
 
 :focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
 .contact-details a { overflow-wrap:anywhere; }
+
+.placeholder-visual{aspect-ratio:5/3;padding:32px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(135deg,#111A30,#080D1C);color:#8b9eb6}.placeholder-visual>span{font-size:.75rem;letter-spacing:.18em}.placeholder-window{width:76%;margin:16px auto 0;border:1px solid #35445d;border-radius:10px;padding:14px}.placeholder-window i{display:inline-block;width:5px;height:5px;border-radius:50%;background:#4776FF;margin-right:5px}.placeholder-window div{height:55px;margin-top:14px;border-top:1px solid #35445d;background:linear-gradient(90deg,#1b2943 40%,transparent 40%)}.placeholder-card:hover{transform:none}

@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://junvun0605.github.io/portfolio/sitemap.xml

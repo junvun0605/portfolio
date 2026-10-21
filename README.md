@@ -1,6 +1,6 @@
 # Chung Jun Vun — GitHub Pages portfolio
 
-A personal, employer-facing adaptation of your recovered September 2026 portfolio website. Four complete pages, six existing project showcases, local photos and screenshots, updated career history, SEO/AI experience, and the latest résumé PDF are included.
+A personal, employer-facing adaptation of your recovered September 2026 portfolio website. Four complete pages, clearly labelled project placeholders, local photos and screenshots, updated career history, SEO/AI experience, and the latest résumé PDF are included.
 
 ## Publish on GitHub Pages
 
@@ -29,7 +29,7 @@ Run `python3 build.py` after editing templates or `site.json`. Python is only a 
 
 ## What was retained and updated
 
-- Retained the recovered personal portfolio's layout, photos and six project showcases: Iconic Hotel, Ezi Maju, TF-AMD, Citi Office, Pusaco and CxSys.
+- Retained the personal layout and photos; replaced existing client project cards with labelled placeholders.
 - Updated email to junvunwork@gmail.com and added the latest résumé PDF.
 - Updated Four Media Singapore to May 2026–Present.
 - Split Inspiren into Web Developer (July 2024–September 2025) and Senior Web Developer (October 2025–April 2026).
@@ -43,8 +43,8 @@ Run `python3 build.py` after editing templates or `site.json`. Python is only a 
 
 The October 15 Putify brief and Axium reference were recovered, but no completed October Astro/Axium implementation was found. This package adapts the earlier completed personal portfolio, not an exact copy of an unseen newer build. It deliberately does not include the purchased Axium template files.
 
-Existing project descriptions and screenshots are retained from your earlier portfolio; they are not newly verified case studies or measured results. Review the project attribution before publishing. Live project URLs may have changed.
+Existing client names, project screenshots and outbound project links have been removed from the project showcases. Replace placeholders in src/index.html and src/projects.html, then rebuild.
 
-The attached résumé is the latest PDF from this conversation, unchanged, including its `portfolio.putify.dev` contact link. Once you choose and publish your GitHub URL, update that résumé link if you intend to stop using the Putify subdomain.
+The attached résumé links to https://junvun0605.github.io/portfolio/. Site canonical URLs and sitemap use that address.
 
 No analytics, fake forms, testimonials, invented results or payment features are included. No site has been deployed by preparing this package.
