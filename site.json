@@ -1,0 +1,21 @@
+{
+  "site_url": "",
+  "pages": {
+    "index": {
+      "title": "Senior Web Developer Portfolio",
+      "description": "Chung Jun Vun \u2014 web development, animation, SEO and AI. Explore selected projects, career progression and r\u00e9sum\u00e9."
+    },
+    "about": {
+      "title": "About Chung Jun Vun",
+      "description": "Career progression from Web Developer to Senior Web Developer and AI Growth Technology Specialist."
+    },
+    "projects": {
+      "title": "Selected Website Projects",
+      "description": "Selected commercial website work across hospitality, construction, healthcare technology and business services."
+    },
+    "contact": {
+      "title": "Contact Jun Vun",
+      "description": "Contact Chung Jun Vun about development roles and technical collaboration. Download the latest r\u00e9sum\u00e9."
+    }
+  }
+}
