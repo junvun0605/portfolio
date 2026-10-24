@@ -28,3 +28,13 @@ if ('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: re
  document.querySelectorAll('[data-reveal]').forEach(el => observer.observe(el));
 }
 document.addEventListener('keydown', e => { if(e.key==='Escape' && nav && toggle){ nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.focus(); }});
+
+// Switch each project between two real website screenshots.
+document.querySelectorAll('.preview-toggle').forEach(button => {
+ button.addEventListener('click', () => {
+  const card=button.closest('.filled-project');
+  const active=card.classList.toggle('is-previewing');
+  button.setAttribute('aria-pressed',String(active));
+  button.textContent=active?'Back to homepage ↔':'View another screen ↔';
+ });
+});

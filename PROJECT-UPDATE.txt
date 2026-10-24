@@ -1,0 +1,11 @@
+PORTFOLIO UPDATE
+
+The original homepage project cards contain Homlux, Sunstar, Whitemood and ISM Malaysia, with real website screenshots. Other original pages, resume and contact details are preserved.
+
+The Projects page now has an Apple-inspired scroll showcase: sticky browser previews, gradual zoom and tilt, screenshot crossfades, changing captions and chapter navigation. Mobile, short screens and reduced-motion preferences use a simpler readable layout with manual screenshot switching. No external JavaScript libraries or WordPress installation are needed.
+
+Preview: open docs/projects.html in a browser. The homepage is docs/index.html.
+
+Upload the contents of docs/ into the folder currently used by GitHub Pages. If your repository publishes /docs, replace that docs folder. If it publishes from the root, upload the contents of docs/ to the root. The live GitHub site has not been updated automatically.
+
+Editable templates are in src/. Run python3 build.py to rebuild the HTML pages. Showcase styling and animation are in docs/assets/css/showcase.css and docs/assets/js/showcase.js.
